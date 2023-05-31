@@ -1,0 +1,73 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: Books API
+
+Resources:
+  BooksBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: Private
+      BucketName: !Sub books-bucket-${AWS::AccountId}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+
+  GetBooks:
+  # Returns list of all books
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: GetBooks
+      Handler: get_books.get_books_handler
+      Runtime: python3.10
+      CodeUri: ./api
+      Description: Returns list of all books
+      Environment:
+        Variables:
+          S3_BUCKET_NAME: !Ref BooksBucket
+          S3_BUCKET_KEY: "books.csv"
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Ref BooksBucket
+      Events:
+        GetBooksAPI:
+          # An API endpoint that responds to HTTP GET and returns all books
+          Type: Api
+          Properties:
+            Path: /books
+            Method: GET
+
+  GetBooksById:
+  # Returns a given book from book id
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: GetBooksById
+      Handler: get_books.get_books_by_id_handler
+      Runtime: python3.10
+      CodeUri: ./api
+      Description: Returns a given book from book id
+      Environment:
+        Variables:
+          S3_BUCKET_NAME: !Ref BooksBucket
+          S3_BUCKET_KEY: "books.csv"
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Ref BooksBucket
+      Events:
+        GetBooksByIdAPI:
+          # An API endpoint that responds to HTTP GET and returns books by id
+          Type: Api
+          Properties:
+            Path: /books/{book_id}
+            Method: GET
+
+  # setAPIGRateLimit:
+  #   Type: AWS::ApiGateway::UsagePlan
+  #   Properties: 
+  #     ApiStages: 
+  #       - ApiId: !Ref BooksApiId
+  #         Stage: Prod
+  #     Description: Set rate limit for API to 120 requests per minute
+  #     Throttle: 
+  #       RateLimit: 2
