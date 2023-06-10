@@ -50,7 +50,7 @@
       <div class="row">
         <div class="col test-options">
           <p>Try
-            <button class="btn btn-link test-options-btn" v-on:click="testInput = 'books/5', getTestResponse()"> books/5 </button>,
+            <button class="btn btn-link test-options-btn" v-on:click="testInput = 'books/3', getTestResponse()"> books/3 </button>,
             <button class="btn btn-link test-options-btn" v-on:click="testInput = 'books/11', getTestResponse()"> books/11 </button>, or
             <button class="btn btn-link test-options-btn" v-on:click="testInput = 'books/20', getTestResponse()"> books/20 </button>.
           </p>
@@ -75,12 +75,12 @@
 
 <script>
 // @ is an alias to /src
-// import docs from '@/components/docs.vue'
+import docs from '@/components/docs.vue'
 
 export default {
   name: 'Home',
   components: {
-    // docs
+    docs
   },
   data () {
     return {
@@ -92,6 +92,7 @@ export default {
   },
   mounted () {
     this.getTestResponse()
+    this.getBooks()
   },
   methods: {
     getTestResponse () {
