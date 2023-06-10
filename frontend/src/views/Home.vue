@@ -84,7 +84,7 @@ export default {
   },
   data () {
     return {
-      testInput: 'books/1',
+      testInput: 'books/50',
       testUrl: null,
       testResponse: null,
       allBooks: null
