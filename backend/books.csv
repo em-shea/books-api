@@ -1,61 +1,61 @@
-﻿book_id,title,author_last_name,author_first_name
-1,A Room with a View,Forster,E. M.
-2,Middlemarch,Eliot,George
-3,Moby Dick,Melville,Herman
-4,The Complete Works of William Shakespeare,Shakespeare,William
-5,Frankenstein,Shelley,Mary Wollstonecraft
-6,Pride and Prejudice,Austen,Jane
-7,Alice's Adventures in Wonderland,Carroll,Lewis
-8,The Great Gatsby,Fitzgerald,F. Scott
-9,The Picture of Dorian Gray,Wilde,Oscar
-10,A Tale of Two Cities,Dickens,Charles
-11,Dracula,Stoker,Bram
-12,Great Expectations,Dickens,Charles
-13,The Strange Case of Dr. Jekyll and Mr. Hyde,Stevenson,Robert Louis
-14,The Adventures of Sherlock Holmes,Doyle,Arthur Conan
-15,The Scarlet Letter,Hawthorne,Nathaniel
-16,War and Peace,Tolstoy,Leo
-17,The Count of Monte Cristo,Dumas,Alexandre
-18,The Iliad,Homer,None
-19,Jane Eyre: An Autobiography,Bront√´,Charlotte
-20,Adventures of Huckleberry Finn,Twain,Mark
-21,Heart of Darkness,Conrad,Joseph
-22,The Prince,Machiavelli,Niccolo
-23,Grimms' Fairy Tales,Grimm,Wilhelm
-24,Don Quixote,Cervantes Saavedra,Miguel de
-25,Dubliners,Joyce,James
-26,The Adventures of Tom Sawyer,Twain,Mark
-27,Wuthering Heights,Bront√´,Emily
-28,The War of the Worlds,Wells,H. G.
-29,Treasure Island,Stevenson,Robert Louis
-30,Anne of Green Gables,Montgomery,L. M.
-31,Winnie-the-Pooh,Milne,A. A.
-32,Emma,Austen,Jane
-33,A Christmas Carol,Dickens,Charles
-34,The Wonderful Wizard of Oz,Baum,L. Frank
-35,Peter Pan,Barrie,J. M.
-36,Anna Karenina,Tolstoy,Leo
-37,Les Miserables,Hugo,Victor
-38,Little Women,Alcott,Louisa May
-39,The Time Machine,Wells,H. G.
-40,Sense and Sensibility,Austen,Jane
-41,Oliver Twist,Dickens,Charles
-42,Persuasion,Austen,Jane
-43,Uncle Tom's Cabin,Stowe,Harriet Beecher
-44,Essays of Michel de Montaigne,Montaigne,Michel de
-45,The Call of the Wild,London,Jack
-46,The Jungle Book,Kipling,Rudyard
-47,David Copperfield,Dickens,Charles
-48,Gulliver's Travels,Swift,Jonathan
-49,Paradise Lost,Milton,John
-50,The Secret Garden,Burnett,Frances Hodgson
-51,The Elements of Style,Strunk,William
-52,The Turn of the Screw,James,Henry
-53,The Mysterious Affair at Styles,Christie,Agatha
-54,Northanger Abbey,Austen,Jane
-55,Twenty Thousand Leagues under the Sea,Verne,Jules
-56,Around the World in Eighty Days,Verne,Jules
-57,The Three Musketeers,Dumas,Alexandre
-58,Madame Bovary,Flaubert,Gustave
-59,Mansfield Park,Austen,Jane
-60,The Invisible Man,Wells,H. G.
+﻿book_id,title,author_last_name,author_first_name,image_file
+1,A Room with a View,Forster,E. M.,https://books-api-images.s3.amazonaws.com/book-1.png
+2,Middlemarch,Eliot,George,https://books-api-images.s3.amazonaws.com/book-2.png
+3,Moby Dick,Melville,Herman,https://books-api-images.s3.amazonaws.com/book-3.png
+4,The Complete Works of William Shakespeare,Shakespeare,William,https://books-api-images.s3.amazonaws.com/book-4.png
+5,Frankenstein,Shelley,Mary Wollstonecraft,https://books-api-images.s3.amazonaws.com/book-1.png
+6,Pride and Prejudice,Austen,Jane,https://books-api-images.s3.amazonaws.com/book-2.png
+7,Alice's Adventures in Wonderland,Carroll,Lewis,https://books-api-images.s3.amazonaws.com/book-3.png
+8,The Great Gatsby,Fitzgerald,F. Scott,https://books-api-images.s3.amazonaws.com/book-4.png
+9,The Picture of Dorian Gray,Wilde,Oscar,https://books-api-images.s3.amazonaws.com/book-1.png
+10,A Tale of Two Cities,Dickens,Charles,https://books-api-images.s3.amazonaws.com/book-2.png
+11,Dracula,Stoker,Bram,https://books-api-images.s3.amazonaws.com/book-3.png
+12,Great Expectations,Dickens,Charles,https://books-api-images.s3.amazonaws.com/book-4.png
+13,The Strange Case of Dr. Jekyll and Mr. Hyde,Stevenson,Robert Louis,https://books-api-images.s3.amazonaws.com/book-1.png
+14,The Adventures of Sherlock Holmes,Doyle,Arthur Conan,https://books-api-images.s3.amazonaws.com/book-2.png
+15,The Scarlet Letter,Hawthorne,Nathaniel,https://books-api-images.s3.amazonaws.com/book-3.png
+16,War and Peace,Tolstoy,Leo,https://books-api-images.s3.amazonaws.com/book-4.png
+17,The Count of Monte Cristo,Dumas,Alexandre,https://books-api-images.s3.amazonaws.com/book-1.png
+18,The Iliad,Homer,None,https://books-api-images.s3.amazonaws.com/book-2.png
+19,Jane Eyre: An Autobiography,Bront√´,Charlotte,https://books-api-images.s3.amazonaws.com/book-3.png
+20,Adventures of Huckleberry Finn,Twain,Mark,https://books-api-images.s3.amazonaws.com/book-4.png
+21,Heart of Darkness,Conrad,Joseph,https://books-api-images.s3.amazonaws.com/book-1.png
+22,The Prince,Machiavelli,Niccolo,https://books-api-images.s3.amazonaws.com/book-2.png
+23,Grimms' Fairy Tales,Grimm,Wilhelm,https://books-api-images.s3.amazonaws.com/book-3.png
+24,Don Quixote,Cervantes Saavedra,Miguel de,https://books-api-images.s3.amazonaws.com/book-4.png
+25,Dubliners,Joyce,James,https://books-api-images.s3.amazonaws.com/book-1.png
+26,The Adventures of Tom Sawyer,Twain,Mark,https://books-api-images.s3.amazonaws.com/book-2.png
+27,Wuthering Heights,Bront√´,Emily,https://books-api-images.s3.amazonaws.com/book-3.png
+28,The War of the Worlds,Wells,H. G.,https://books-api-images.s3.amazonaws.com/book-4.png
+29,Treasure Island,Stevenson,Robert Louis,https://books-api-images.s3.amazonaws.com/book-1.png
+30,Anne of Green Gables,Montgomery,L. M.,https://books-api-images.s3.amazonaws.com/book-2.png
+31,Winnie-the-Pooh,Milne,A. A.,https://books-api-images.s3.amazonaws.com/book-3.png
+32,Emma,Austen,Jane,https://books-api-images.s3.amazonaws.com/book-4.png
+33,A Christmas Carol,Dickens,Charles,https://books-api-images.s3.amazonaws.com/book-1.png
+34,The Wonderful Wizard of Oz,Baum,L. Frank,https://books-api-images.s3.amazonaws.com/book-2.png
+35,Peter Pan,Barrie,J. M.,https://books-api-images.s3.amazonaws.com/book-3.png
+36,Anna Karenina,Tolstoy,Leo,https://books-api-images.s3.amazonaws.com/book-4.png
+37,Les Miserables,Hugo,Victor,https://books-api-images.s3.amazonaws.com/book-1.png
+38,Little Women,Alcott,Louisa May,https://books-api-images.s3.amazonaws.com/book-2.png
+39,The Time Machine,Wells,H. G.,https://books-api-images.s3.amazonaws.com/book-3.png
+40,Sense and Sensibility,Austen,Jane,https://books-api-images.s3.amazonaws.com/book-4.png
+41,Oliver Twist,Dickens,Charles,https://books-api-images.s3.amazonaws.com/book-1.png
+42,Persuasion,Austen,Jane,https://books-api-images.s3.amazonaws.com/book-2.png
+43,Uncle Tom's Cabin,Stowe,Harriet Beecher,https://books-api-images.s3.amazonaws.com/book-3.png
+44,Essays of Michel de Montaigne,Montaigne,Michel de,https://books-api-images.s3.amazonaws.com/book-4.png
+45,The Call of the Wild,London,Jack,https://books-api-images.s3.amazonaws.com/book-1.png
+46,The Jungle Book,Kipling,Rudyard,https://books-api-images.s3.amazonaws.com/book-2.png
+47,David Copperfield,Dickens,Charles,https://books-api-images.s3.amazonaws.com/book-3.png
+48,Gulliver's Travels,Swift,Jonathan,https://books-api-images.s3.amazonaws.com/book-4.png
+49,Paradise Lost,Milton,John,https://books-api-images.s3.amazonaws.com/book-1.png
+50,The Secret Garden,Burnett,Frances Hodgson,https://books-api-images.s3.amazonaws.com/book-2.png
+51,The Elements of Style,Strunk,William,https://books-api-images.s3.amazonaws.com/book-3.png
+52,The Turn of the Screw,James,Henry,https://books-api-images.s3.amazonaws.com/book-4.png
+53,The Mysterious Affair at Styles,Christie,Agatha,https://books-api-images.s3.amazonaws.com/book-1.png
+54,Northanger Abbey,Austen,Jane,https://books-api-images.s3.amazonaws.com/book-2.png
+55,Twenty Thousand Leagues under the Sea,Verne,Jules,https://books-api-images.s3.amazonaws.com/book-3.png
+56,Around the World in Eighty Days,Verne,Jules,https://books-api-images.s3.amazonaws.com/book-4.png
+57,The Three Musketeers,Dumas,Alexandre,https://books-api-images.s3.amazonaws.com/book-1.png
+58,Madame Bovary,Flaubert,Gustave,https://books-api-images.s3.amazonaws.com/book-2.png
+59,Mansfield Park,Austen,Jane,https://books-api-images.s3.amazonaws.com/book-3.png
+60,The Invisible Man,Wells,H. G.,https://books-api-images.s3.amazonaws.com/book-4.png
