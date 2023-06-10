@@ -129,9 +129,6 @@ export default {
   width: 120px;
   min-height: 124.5px;
 }
-:hover.header-img {
-  cursor: pointer;
-}
 .json {
   text-align: left;
 }
