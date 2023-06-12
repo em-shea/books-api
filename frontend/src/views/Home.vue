@@ -9,7 +9,7 @@
       </div>
       <div class="row py-3">
         <div class="col">
-          <p>Get data on public domain books.</p>
+          <p>Get data on popular public domain books.</p>
         </div>
       </div>
 
