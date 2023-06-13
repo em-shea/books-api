@@ -4,7 +4,9 @@
       <div class="row pt-5 pb-1">
         <div class="col">
           <h3>Books API</h3>
-          <img class="header-img" v-bind:src="testResponse.image_file">
+          <div class="header-img">
+            <img v-if="testResponse.image_file" v-bind:src="testResponse.image_file">
+          </div>
         </div>
       </div>
       <div class="row py-3">
@@ -131,8 +133,10 @@ export default {
 
 <style scoped>
 .header-img {
-  width: 120px;
   min-height: 124.5px;
+}
+.header-img img {
+  width: 120px;
 }
 .json {
   text-align: left;
