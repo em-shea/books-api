@@ -29,7 +29,7 @@
                 </div>
             </div>
             <h6>GET /books/{id}</h6>
-            <p> This endpoint returns a book for a given id. Valid ids are between 1-60. Names are not case sensitive.</p>
+            <p> This endpoint returns a book for a given id. Valid ids are between 1-60.</p>
             <div class="row json">
                 <div class="col scrollbar-y border mx-3 mb-3">
                     <tree-view :data="exampleBookResponse" :options="{maxDepth: 3, link: true}"></tree-view>
@@ -69,7 +69,7 @@ export default {
     return {
       bookDataModel: [
         { Name: 'book_id', Description: 'Id number of book (1-60)', Example: '17', Id: '1' },
-        { Name: 'title', Description: 'Name of cat', Example: 'The Count of Monte Cristo', Id: '2' },
+        { Name: 'title', Description: 'Title of book', Example: 'The Count of Monte Cristo', Id: '2' },
         { Name: 'author_first_name', Description: "Book author's first name", Example: 'Alexandre', Id: '3' },
         { Name: 'author_last_name', Description: "Book author's last name", Example: 'Dumas', Id: '4' },
         { Name: 'image_file', Description: 'Link to book cover image file', Example: 'https://books-api-images.s3.amazonaws.com/book-pink.png', Id: '5' }

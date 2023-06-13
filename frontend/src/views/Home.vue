@@ -96,7 +96,9 @@ export default {
   },
   methods: {
     getTestResponse () {
-      this.testResponse = 'loading...'
+      this.testResponse = {
+        data: 'loading...'
+      }
       this.testUrl = 'https://api.books.emshea.com/' + this.testInput
       return axios
         .get(this.testUrl, {}
@@ -109,7 +111,9 @@ export default {
         })
     },
     getBooks () {
-      this.allBooks = 'loading...'
+      this.allBooks = {
+        data: 'loading...'
+      }
       return axios
         .get('https://api.books.emshea.com/books', {}
         )
